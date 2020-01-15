@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40A4F7C23CEE18C00B6C773 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4F7B23CEE18C00B6C773 /* BarChartViewController.swift */; };
+		A40A4F7E23CEE1A600B6C773 /* BarChartViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40A4F7D23CEE1A600B6C773 /* BarChartViewController.storyboard */; };
+		A40A4F8323CEED8200B6C773 /* WeekdayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4F8223CEED8200B6C773 /* WeekdayAxisValueFormatter.swift */; };
+		A40A4F8523CEFAE900B6C773 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4F8423CEFAE900B6C773 /* Colors.swift */; };
 		A47B1EA423CD627F00F4DECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47B1EA323CD627F00F4DECC /* AppDelegate.swift */; };
 		A47B1EA623CD627F00F4DECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47B1EA523CD627F00F4DECC /* SceneDelegate.swift */; };
 		A47B1EA823CD627F00F4DECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47B1EA723CD627F00F4DECC /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A40A4F7B23CEE18C00B6C773 /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		A40A4F7D23CEE1A600B6C773 /* BarChartViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarChartViewController.storyboard; sourceTree = "<group>"; };
+		A40A4F8223CEED8200B6C773 /* WeekdayAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayAxisValueFormatter.swift; sourceTree = "<group>"; };
+		A40A4F8423CEFAE900B6C773 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A47B1EA023CD627F00F4DECC /* QiitaChartsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaChartsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47B1EA323CD627F00F4DECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A47B1EA523CD627F00F4DECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +48,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A40A4F7823CEE11F00B6C773 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A40A4F7923CEE12900B6C773 /* Main */,
+				A40A4F7A23CEE13100B6C773 /* BarChart */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A40A4F7923CEE12900B6C773 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A47B1EA723CD627F00F4DECC /* ViewController.swift */,
+				A47B1EA923CD627F00F4DECC /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A40A4F7A23CEE13100B6C773 /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				A40A4F7B23CEE18C00B6C773 /* BarChartViewController.swift */,
+				A40A4F7D23CEE1A600B6C773 /* BarChartViewController.storyboard */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		A40A4F7F23CEED1000B6C773 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A40A4F8423CEFAE900B6C773 /* Colors.swift */,
+				A40A4F8223CEED8200B6C773 /* WeekdayAxisValueFormatter.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		A47B1E9723CD627F00F4DECC = {
 			isa = PBXGroup;
 			children = (
@@ -62,8 +106,8 @@
 			children = (
 				A47B1EA323CD627F00F4DECC /* AppDelegate.swift */,
 				A47B1EA523CD627F00F4DECC /* SceneDelegate.swift */,
-				A47B1EA723CD627F00F4DECC /* ViewController.swift */,
-				A47B1EA923CD627F00F4DECC /* Main.storyboard */,
+				A40A4F7823CEE11F00B6C773 /* ViewController */,
+				A40A4F7F23CEED1000B6C773 /* Common */,
 				A47B1EAC23CD628400F4DECC /* Assets.xcassets */,
 				A47B1EAE23CD628400F4DECC /* LaunchScreen.storyboard */,
 				A47B1EB123CD628400F4DECC /* Info.plist */,
@@ -140,6 +184,7 @@
 			files = (
 				A47B1EB023CD628400F4DECC /* LaunchScreen.storyboard in Resources */,
 				A47B1EAD23CD628400F4DECC /* Assets.xcassets in Resources */,
+				A40A4F7E23CEE1A600B6C773 /* BarChartViewController.storyboard in Resources */,
 				A47B1EAB23CD627F00F4DECC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47B1EA823CD627F00F4DECC /* ViewController.swift in Sources */,
+				A40A4F8523CEFAE900B6C773 /* Colors.swift in Sources */,
+				A40A4F8323CEED8200B6C773 /* WeekdayAxisValueFormatter.swift in Sources */,
+				A40A4F7C23CEE18C00B6C773 /* BarChartViewController.swift in Sources */,
 				A47B1EA423CD627F00F4DECC /* AppDelegate.swift in Sources */,
 				A47B1EA623CD627F00F4DECC /* SceneDelegate.swift in Sources */,
 			);
