@@ -11,6 +11,8 @@
 		A40A4F7E23CEE1A600B6C773 /* BarChartViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40A4F7D23CEE1A600B6C773 /* BarChartViewController.storyboard */; };
 		A40A4F8323CEED8200B6C773 /* WeekdayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4F8223CEED8200B6C773 /* WeekdayAxisValueFormatter.swift */; };
 		A40A4F8523CEFAE900B6C773 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4F8423CEFAE900B6C773 /* Colors.swift */; };
+		A40A4F8823CF091500B6C773 /* BarChartDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4F8723CF091500B6C773 /* BarChartDelegateViewController.swift */; };
+		A40A4F8A23CF092C00B6C773 /* BarChartDelegateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40A4F8923CF092C00B6C773 /* BarChartDelegateViewController.storyboard */; };
 		A47B1EA423CD627F00F4DECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47B1EA323CD627F00F4DECC /* AppDelegate.swift */; };
 		A47B1EA623CD627F00F4DECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47B1EA523CD627F00F4DECC /* SceneDelegate.swift */; };
 		A47B1EA823CD627F00F4DECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47B1EA723CD627F00F4DECC /* ViewController.swift */; };
@@ -25,6 +27,8 @@
 		A40A4F7D23CEE1A600B6C773 /* BarChartViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarChartViewController.storyboard; sourceTree = "<group>"; };
 		A40A4F8223CEED8200B6C773 /* WeekdayAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayAxisValueFormatter.swift; sourceTree = "<group>"; };
 		A40A4F8423CEFAE900B6C773 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A40A4F8723CF091500B6C773 /* BarChartDelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDelegateViewController.swift; sourceTree = "<group>"; };
+		A40A4F8923CF092C00B6C773 /* BarChartDelegateViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BarChartDelegateViewController.storyboard; sourceTree = "<group>"; };
 		A47B1EA023CD627F00F4DECC /* QiitaChartsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaChartsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47B1EA323CD627F00F4DECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A47B1EA523CD627F00F4DECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,7 @@
 			children = (
 				A40A4F7923CEE12900B6C773 /* Main */,
 				A40A4F7A23CEE13100B6C773 /* BarChart */,
+				A40A4F8623CF08CB00B6C773 /* BarChartDelegate */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -82,6 +87,15 @@
 				A40A4F8223CEED8200B6C773 /* WeekdayAxisValueFormatter.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		A40A4F8623CF08CB00B6C773 /* BarChartDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A40A4F8723CF091500B6C773 /* BarChartDelegateViewController.swift */,
+				A40A4F8923CF092C00B6C773 /* BarChartDelegateViewController.storyboard */,
+			);
+			path = BarChartDelegate;
 			sourceTree = "<group>";
 		};
 		A47B1E9723CD627F00F4DECC = {
@@ -186,6 +200,7 @@
 				A47B1EAD23CD628400F4DECC /* Assets.xcassets in Resources */,
 				A40A4F7E23CEE1A600B6C773 /* BarChartViewController.storyboard in Resources */,
 				A47B1EAB23CD627F00F4DECC /* Main.storyboard in Resources */,
+				A40A4F8A23CF092C00B6C773 /* BarChartDelegateViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +237,7 @@
 				A40A4F8523CEFAE900B6C773 /* Colors.swift in Sources */,
 				A40A4F8323CEED8200B6C773 /* WeekdayAxisValueFormatter.swift in Sources */,
 				A40A4F7C23CEE18C00B6C773 /* BarChartViewController.swift in Sources */,
+				A40A4F8823CF091500B6C773 /* BarChartDelegateViewController.swift in Sources */,
 				A47B1EA423CD627F00F4DECC /* AppDelegate.swift in Sources */,
 				A47B1EA623CD627F00F4DECC /* SceneDelegate.swift in Sources */,
 			);

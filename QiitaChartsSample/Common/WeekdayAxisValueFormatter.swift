@@ -22,25 +22,25 @@ class WeekdayAxisValueFormatter: NSObject, IAxisValueFormatter {
         var description: String {
             switch self {
             case .monday:
-                return "Mon"
+                return "Monday"
             case .tuesday:
-                return "Tue"
+                return "Tuesday"
             case .wednesday:
-                return "Wed"
+                return "Wednesday"
             case .thursday:
-                return "Thu"
+                return "Thursday"
             case .friday:
-                return "Fri"
+                return "Friday"
             case .saturday:
-                return "Sat"
+                return "Saturday"
             case .sunday:
-                return "Sun"
+                return "Sunday"
             }
         }
     }
     
     func stringForValue(_ value: Double, axis: AxisBase?) -> String {
-        guard let weekday = Weekday(rawValue: Int(value))?.description else { return "UNKNOWN" }
-        return weekday
+        guard let weekday = Weekday(rawValue: Int(value))?.description.prefix(3) else { return "UNKNOWN" }
+        return String(weekday)
     }
 }

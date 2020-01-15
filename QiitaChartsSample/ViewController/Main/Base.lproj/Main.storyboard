@@ -42,6 +42,31 @@
                                             <segue destination="MuH-rr-d0K" kind="show" id="kS1-Uz-WT0"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="HMb-zc-AVI">
+                                        <rect key="frame" x="0.0" y="99" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HMb-zc-AVI" id="gGm-kW-kWC">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="棒グラフ( デリゲートあり )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8I-ql-HAx">
+                                                    <rect key="frame" x="16" y="4" width="351" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="A8I-ql-HAx" secondAttribute="trailing" constant="16" id="5b5-bj-Nqn"/>
+                                                <constraint firstItem="A8I-ql-HAx" firstAttribute="leading" secondItem="gGm-kW-kWC" secondAttribute="leading" constant="16" id="RxX-R5-RJ0"/>
+                                                <constraint firstItem="A8I-ql-HAx" firstAttribute="top" secondItem="gGm-kW-kWC" secondAttribute="top" constant="4" id="eNf-hI-AQ5"/>
+                                                <constraint firstAttribute="bottom" secondItem="A8I-ql-HAx" secondAttribute="bottom" constant="4" id="r8V-SC-Sg7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Zu5-zB-xR1" kind="show" id="nbi-WO-ZqV"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -65,6 +90,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a23-6O-95Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1664" y="-441"/>
+        </scene>
+        <!--BarChartDelegateViewController-->
+        <scene sceneID="msE-LT-Jaj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BarChartDelegateViewController" id="Zu5-zB-xR1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7nN-Tg-FbR"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OR6-a0-CyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1702" y="-405"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GfA-zF-dmx">
